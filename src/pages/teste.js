@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 export default class pages extends Component {
   render() {
     return (
-        <div>
+        <React.Fragment>
             
             <h1>O que é</h1>
             <p>O dinheiro pode ser confuso. Nevermind a matemática das finanças pessoais, o próprio conceito de que papel, 
@@ -18,7 +18,7 @@ export default class pages extends Component {
                 Eles têm sido procurados como pagamento de resgate ou usados ​​para fazer compras ilegais porque as transações não são rastreáveis 
                 ​​por meios convencionais.
             </p>
-        </div>
+        </React.Fragment>
     );
   }
 }

@@ -4,8 +4,11 @@ import Teste from './pages/teste';
 
 const Routes = () => (
     <BrowserRouter>
-        <Route exact path="/" component={()=> <h1>Hello world!</h1>} />
-        <Route path="/teste" component={Teste} />
+        <Switch>
+            <Route exact path="/" component={()=> <h1>Hello world!</h1>} />
+            <Route path="/teste" component={Teste} />
+        </Switch>
+        
     </BrowserRouter>
 )
 
